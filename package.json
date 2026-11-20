@@ -1,0 +1,12 @@
+{
+  "name": "internet-speed-test",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Измерение скорости загрузки по 10 последовательным HTTP-запросам",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node speedtest.js",
+    "test": "node --test"
+  }
+}
